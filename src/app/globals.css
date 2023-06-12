@@ -22,4 +22,20 @@ a{
     min-height: 100vh;
     margin: 0 auto;
     padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.theme{
+  transition: 1s all ease;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
 }
